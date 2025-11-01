@@ -159,7 +159,7 @@ Resources:
     Type: AWS::AutoScaling::AutoScalingGroup
     Properties:
       MinSize: 2
-      MaxSize: 4
+      MaxSize: 6
       DesiredCapacity: 2
       VPCZoneIdentifier:
         - !Ref PublicSubnet1
