@@ -39,7 +39,7 @@ jobs:
             --stack-name MaxInfra \
             --capabilities CAPABILITY_IAM \
             --parameter-overrides \
-                KeyName=max-app-key \
+                KeyName=MyKeyPair \
                 InstanceType=t2.micro \
                 AppName=max-app \
                 HtmlContent=$HTML_CONTENT \

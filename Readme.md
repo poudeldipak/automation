@@ -48,3 +48,4 @@ choose actions and Add new Repository Secret
 ```sh
 aws cloudformation deploy --template-file infra/max-app.yml --stack-name MaxInfra --capabilities CAPABILITY_IAM --parameter-overrides KeyName=MyKeyPair InstanceType=t2.micro AppName=max-app HtmlContent=$HTML_CONTENT BuildId=$TIMESTAMP
 ```
+Note: make sure your cloudformation template parameter and deploy file contain same keyPair
